@@ -6,18 +6,19 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("cara o cruz");
+        aleatorio();
 
 
 
 
     }
-    public  void aleatorio(){
+    public  static void aleatorio() {
         Random numAleatorio = new Random();
 
-// Genera un boolean de forma aleatoria
+
         boolean moneda = numAleatorio.nextBoolean();
 
-// Si es verdadero cara y sino cruz
+
         if (moneda) {
             System.out.println("Cara");
         } else {
