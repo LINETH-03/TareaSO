@@ -8,10 +8,13 @@ public class Main {
     public static void main(String[] args) {
         Scanner myObj = new Scanner(System.in);
         System.out.println("Ingresa Nombre");
+        String userName = myObj.nextLine();
+        System.out.println("Hola " + userName+" elige cara o cruz");
+        System.out.println("---------------------------------------------------"+"\n");
 
 
 
-        System.out.println("cara o cruz");
+
         aleatorio();
 
 
